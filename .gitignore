@@ -2,3 +2,5 @@ __pycache__
 *.pyc
 .env
 students.db
+kuppam.db 
+test_kuppam.db 
