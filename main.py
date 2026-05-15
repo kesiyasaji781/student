@@ -18,7 +18,7 @@ app = FastAPI(title="Student Management API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","https://student-app-self-kappa.vercel.app/"],
+    allow_origins=["http://localhost:5173","https://student-app-self-kappa.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
